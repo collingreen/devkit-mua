@@ -1,0 +1,20 @@
+{
+  "name": "mua",
+  "author": "Collin Green",
+  "description": "MUA Games toolkit",
+  "version": "0.0.1",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "jsio": "^2.0.3",
+    "mocha": "^2.2.4"
+  },
+  "scripts": {
+      "test": "mocha"
+  },
+  "devkit": {
+      "clientPaths": {
+          "mua": "js"
+      }
+  }
+}
